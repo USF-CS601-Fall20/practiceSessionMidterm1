@@ -17,7 +17,7 @@ public final class Hotel { // make class final
     public Hotel(String name, String id, Address address) {
         this.name = name;
         this.id = id;
-        this.address = address;
+        this.address = new Address(address);
     }
 
     public String getId() {
