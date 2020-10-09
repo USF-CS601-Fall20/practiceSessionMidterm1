@@ -1,0 +1,10 @@
+Which design pattern would you use in the following situation?
+
+Question:
+We want to define an interface for creating different types of Vehicle-s;
+we have several subclasses of Vehicle such as a Truck and a Plane, and plan to add more subclasses in the future.
+We want to  let subclasses decide the object of which class to return.
+
+Answer: Factory Method Design Pattern.
+It has an interface that creates different types of objects and subclasses implement this
+method to return an object of a subclass as needed.
